@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+/* * header */ 
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #53A1C4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: 100px;
+  }
+  .navbar a{
+  color: #fff;
+  }
+  /* sidebar */
+  .sidebar svg {
+  width: 60px;
+  height: 60px;
+  color: white;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+  }
+  
+  .side{
+  height: 680px;
+  width: 250px;
+  list-style: none;
+  background-color: #53A1C4;
+  position: fixed;
+  top: 100px;
+  left: -300px;
+  transition: 0.5s;
+  }
+  .side li:nth-child(5){
+    margin-top: 280px;
+  }
+  .side li{
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 40px;
+  }
+  .side li a {
+  padding-left: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: -20px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: background-color 0.5s;
+  }
+  .side li a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  }
+  .side-open{
+  left: 0;
+  }
+  .side button{
+  background: none;
+  border: none;
+  
+  }
+  .side button svg{
+  width: 50px;
+  height: 50px;
+  }
+  /* /sidebar */
+  
+  .logo a{
+  margin-left: 10px;
+  width: 250px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .logo svg{
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  }
+  .logo h2{
+    font-size: 20px;
+    font-weight: 600;
+    width: 142px;
+    color: white;
+  }
+  .profil a{
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  margin-left: 1100px;
+  }
+  
+  /*Navbar nav*/
+  .navbar-nav {
+    background-color: #CDDDE4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top: 100px;
+  }
+  .navbar-nav-link{
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .navbar-nav .navbar-nav-link a{
+  color: #070708;
+  margin: 0 auto;
+  font-weight: 500;
+  }
+  /* /header */
+body {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 90px;
+}
+ /*Table kiri*/
+.main-1 {
+    height: 550px;
+    width: 250px;
+    background-color: #9DCADE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+    border-radius: 10px;
+} 
+
+.profile{
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.profile svg{
+    height: 80px;
+    width: 80px;
+}
+
+/* Biodata dan pengaturan akun*/
+.main-2 {
+    margin-top: 90px;
+    width: 810px;
+    height: 546px; 
+    background-color: #53A1C4; 
+    border-radius: 10px;   
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+header h1:first-child{
+    background-color: #9DCADE;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+header h1 a{
+    cursor: pointer;
+    color: #fff;
+}
+.group-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    margin: auto;
+    gap: 80px;
+
+}
+.data{
+    text-align: left;
+    margin-right: 20px;
+    width: 200px;
+} 
+

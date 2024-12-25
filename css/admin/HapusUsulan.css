@@ -1,0 +1,68 @@
+*{
+    font-family: 'poppins';
+    list-style: none;
+    text-decoration: none;
+}
+
+form{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+h3{
+    margin-bottom: 50px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.info input{
+    font-size: 14px;
+    font-weight: 400;
+    text-indent: 10px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(225, 225, 225);
+}
+
+.tombol{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;   
+}
+.tombol button:first-child{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tombol button:last-child:hover{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(228, 53, 53);
+    color: white;
+    cursor: pointer;
+}
+.tombol button:last-child{
+    background-color: rgb(230, 230, 230);
+    color: rgb(228, 53, 53);
+    font-size: 16px;
+    font-weight: 600;
+}
+a{
+    color: black;
+}

@@ -1,0 +1,87 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+}
+.logo{
+    display: flex;
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo svg{
+    height: 80px;
+    width: 150px;
+    margin-right: 10px;
+}
+.logo h1{
+    font-size: 30px;
+    color: #2C64F4;
+}
+form{
+    margin-top: 50px;
+}
+label{
+    display: flex;
+    font-weight: 500; /* medium */
+    margin: 0 0 5px 5px;
+    font-size: 20px;
+}
+ul li {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 400; /* medium */
+    text-align: right;
+    margin-top: 10px;
+}
+input{
+    width: 311px;
+    height: 78px;
+    border-radius: 10px;
+    padding-left: 25px;
+    border: none;
+    background-color: #ededed;
+    font-size: 17px;
+
+}
+
+button{
+    color: white;
+    background-color: #2C64F4;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 194px;
+    height: 68px;
+    border-radius: 25px;    
+}
+li button a{
+    color: white;
+}

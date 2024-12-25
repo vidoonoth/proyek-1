@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: poppins;
+}
+a{
+    color: white;
+}
+.navbar{
+    background-color: #2C64F4;
+}
+.navbar nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1100px; 
+}
+.logo-dashboard a{
+    margin-left: 10px;
+    margin-right: 50px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-dashboard svg{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.logo-dashboard p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 142px;
+    color: white;
+}
+.sidebar{
+    background-color: #5465FF;
+    width: 278px;
+    height: 680px;
+    position: absolute;
+}
+.sidebar nav{
+    padding-top: 60px;
+}
+nav li{
+    margin-bottom: 45px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+nav li:last-child{
+    margin-top: 250px;
+}
+.main-content{
+    padding-top: 30px;
+    margin-left: 278px;
+}
+.main-content h1{
+    background-color: #2C64F4;
+    width: 100px;
+    margin-left: 60px;
+    padding-left: 15px;
+    border-radius: 10px;
+    color: white;
+}
+.profile{
+    background-color: #2C64F4;
+    width: 800px;
+    height: 500px;
+    margin: 30px 0 0 290px;
+    padding-top: 30px;
+    border-radius: 10px;
+}
+.profile .header{ 
+    display: flex;
+    padding-right: 80px;
+    padding-left: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+}
+.logo-profile{
+    margin-left: 100px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.logo-profile svg{
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.logo-profile h2{
+    color: white;
+}
+.navigasi{
+    margin-left: 30px;
+    display: flex;
+    margin-right: 300px;
+    align-items: center;
+    text-align: center;
+}
+.navigasi :nth-child(1){
+    background-color:white;
+    color: #2C64F4;
+    border-radius: 10px ;
+    height: 60px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigasi:nth-child(2){
+    cursor: pointer;
+}
+.navigasi p{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.profile-data{
+    width: 1000px;
+    margin: 10px auto;
+}
+.profile-data ul{
+    color: white;
+    display: flex;
+    width: 700px;
+    margin-top: 100px;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+.profile-data ul li{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 100px;
+    
+}
+/*  pop up */
+.setting-close{
+    display: none;
+    position: absolute;
+    width: 800px;
+    height: 700px;
+    background-color: #2C64F4;
+    border: 5px solid white;
+    border-radius: 15px;
+    z-index: 99999;
+    margin-top: 30px;
+    margin-left: 500px;
+}
+.head-1{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-1 h1{
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  color: #2C64F4;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.head-1  svg{
+    height: 50px;
+    width: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+form{
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: #fff;    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.input-box input {
+  width: 280px;
+  height: 60px;
+  border-radius: 10px;
+  text-indent: 15px;
+  border: none;
+}
+button{
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  border: none;
+  background-color: white;
+  color: #2C64F4;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: 300px;
+}
